@@ -1,15 +1,18 @@
 
 
 import Forms from './components/Forms';
+import FormsObject from './components/FormsObject';
 
 
 function App() {
   return (
     <div className="App">
 
-      <h1 className='text-center mt-5'>Forms</h1>
+      
 
-      <Forms />
+      {/* <Forms /> */}
+
+      <FormsObject />
     
     </div>
   );
