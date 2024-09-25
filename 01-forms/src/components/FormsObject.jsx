@@ -31,8 +31,6 @@ function FormsObject() {
     });
   };
 
-  //console.log(email)
-  //console.log(password)
 
   return (
     <Form className="container" onSubmit={handleSubmit}>
